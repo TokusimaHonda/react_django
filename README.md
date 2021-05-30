@@ -122,5 +122,94 @@ Running migrations:
   Applying auth.0011_update_proxy_permissions... OK
   Applying auth.0012_alter_user_first_name_max_length... OK
   Applying sessions.0001_initial... OK
-(venv_django) takahashifuyuki@MacMini-FT music_controller % 
+(venv_django) takahashifuyuki@MacMini-FT music_controller %
+```
+
+frontend
+
+```
+(venv_django) takahashifuyuki@MacMini-FT music_controller % django-admin startapp frontend
+(venv_django) takahashifuyuki@MacMini-FT music_controller % cd frontend
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm init -y
+Wrote to /Users/takahashifuyuki/work/Git/react_django/music_controller/frontend/package.json:
+
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+npm notice
+npm notice New minor version of npm available! 7.3.0 -> 7.15.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v7.15.0
+npm notice Run npm install -g npm@7.15.0 to update!
+npm notice
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm i webpack webpack-cli --save-dev
+
+added 121 packages, and audited 122 packages in 8s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+added 160 packages, and audited 282 packages in 9s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm i react react-dom
+
+added 5 packages, and audited 287 packages in 3s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(venv_django) takahashifuyuki@MacMini-FT frontend %
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm install @material-ui/core
+
+added 37 packages, and audited 324 packages in 5s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm install @babel/plugin-proposal-class-properties
+
+up to date, audited 324 packages in 1s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm install react-router-dom
+
+added 10 packages, and audited 334 packages in 2s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(venv_django) takahashifuyuki@MacMini-FT frontend % npm instal @material-ui/icons
+
+added 1 package, and audited 335 packages in 5s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
 ```
